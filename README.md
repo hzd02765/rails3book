@@ -1,6 +1,6 @@
-rails3book
+##rails3book
 ==========
-改訂新版 基礎Ruby on Rails (IMPRESS KISO SERIES)
+##改訂新版 基礎Ruby on Rails (IMPRESS KISO SERIES)
 
 + 単行本（ソフトカバー）: 496ページ
 + 出版社: インプレスジャパン; 改訂新版 (2012/3/5)

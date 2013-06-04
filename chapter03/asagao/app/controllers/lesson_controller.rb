@@ -36,6 +36,31 @@ class LessonController < ApplicationController
     render "step8"
   end
 
+  def step10
+    @comment = "<script>alert('危険')</script>こんにちは。"
+  end
+
+  def  step11
+    @comment = "<strong>安全なHTML</strong>"
+  end
+
+  def step12
+    @population = 704414
+    @surface = 141.31
+  end
+
+  def step13
+    @time = Time.now
+  end
+
+  def step14
+    @population = 127767944
+  end
+
+  def step15
+    @message = "ごぎげんいかが？\nRailsの勉強を頑張りましょう。"
+  end
+
   private
   def do_before
     @message = "こんにちは"

@@ -54,4 +54,5 @@ class MembersController < ApplicationController
     @member.destroy
     redirect_to :members, notice: "会員を削除しました。"
   end
+
 end

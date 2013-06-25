@@ -1,3 +1,5 @@
+<%= render "shared/errors", obj: @member %>
+
 <table class="attr">
   
   <tr>
@@ -7,7 +9,7 @@
 
   <tr>
     <th><%= form.label :name, "ニックネーム" %></th>
-    <td><%= form.text_field :name %></td>
+    <td><%= form.text_field: :name %></td>
   </tr>
 
   <tr>
